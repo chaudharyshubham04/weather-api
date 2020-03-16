@@ -1,0 +1,11 @@
+  <%-include("partials/header")%>
+
+<h1 style="text-align: center; margin-top: 10rem; margin-bottom: 1rem;">Type the name of the city</h1>
+<form action="/weather" method="post" >
+	<div style="  margin: 0 auto; width:30%"> 
+	<input type="text" name="city" placeholder="Enter City" class=" form-group form-control" >
+	<button class="btn btn-primary btn-block ">Check Weather</button>
+	</div>
+</form>
+
+    <%-include("partials/footer")%>
